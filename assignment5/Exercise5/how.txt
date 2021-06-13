@@ -1,0 +1,1 @@
+The exploit input has overwritten the values of the local variables local pin and check pin such that both resulted in the same values, thus succesfully passed the if statement and transferred the money when the STRUCT is used. When struct wasn't used, the values of the local variables did not change and stack smashing was detected.  

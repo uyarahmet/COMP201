@@ -1,0 +1,1 @@
+Using fgets() instead of scanf() is safer since fgets() puts a limit on the amount of data it writes to the buffer you pass which in our case was 100 bytes thus avoiding buffer overflow insecurities. 
